@@ -120,7 +120,7 @@ const startApp = () => {
   // SELECT THE SEARCH INPUT
   document.querySelector('#searchInput').addEventListener('keyup', search)
 
-  // SELECT BUTTON ROW DIV
+  // SELECT BUTTON ROW DIV  //Lookup
   document.querySelector('#btnRow').addEventListener('click', buttonFilter);
 }
 startApp();
